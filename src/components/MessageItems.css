@@ -8,11 +8,15 @@
     border-radius: 5px;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
 }
 
 .close{
     font-weight: bold;
     cursor: pointer;
     color: red;
+}
+
+h5 {
+    margin-left: 10px;
+    margin-top: 2px;
 }

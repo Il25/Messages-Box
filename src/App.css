@@ -7,7 +7,7 @@ body {
   height: 600px;
   width: 600px;
   margin: 40px auto;
-  overflow-y: auto;
+  overflow: auto;
   border-radius: 10px;
   justify-content: center;
   border: 2px solid black;;
@@ -59,6 +59,7 @@ button {
   height: 300px;
   width: 500px;
   margin: 20px auto;
+  overflow-y: auto;
 }
 
 .setTimeout {
@@ -66,4 +67,6 @@ button {
   height: 50px;
   width: 500px;
   margin: 20px auto;
+  padding: 15px;
+  display: flex;
 }
