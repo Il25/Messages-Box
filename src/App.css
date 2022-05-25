@@ -1,0 +1,69 @@
+body {
+  background-color: #bacad0;
+}
+
+.App {
+  background-color: #ffffff;
+  height: 600px;
+  width: 600px;
+  margin: 40px auto;
+  overflow-y: auto;
+  border-radius: 10px;
+  justify-content: center;
+  border: 2px solid black;;
+}
+
+.messages {
+  border: 1px solid black;
+}
+
+input {
+  background-color: white;
+  border: 0;
+  width: 400px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  color: black;
+  border: 1px solid black;
+}
+
+input::placeholder {
+  color: rgba(18, 18, 18, 0.5);
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+button {
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(70, 133, 70);
+  cursor: pointer;
+  font-weight: bolder;
+  color: #FFFFFF;
+}
+
+.input_button{
+  margin-left: 30px;
+  left: 0;
+}
+
+.all_messages {
+  border: 2px solid black;
+  height: 300px;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.setTimeout {
+  border: 2px solid black;
+  height: 50px;
+  width: 500px;
+  margin: 20px auto;
+}

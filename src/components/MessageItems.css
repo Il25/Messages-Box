@@ -1,0 +1,18 @@
+.messages {
+    color: black;
+    width: 300px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.close{
+    font-weight: bold;
+    cursor: pointer;
+    color: red;
+}
